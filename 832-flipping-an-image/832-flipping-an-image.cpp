@@ -11,9 +11,9 @@ public:
             if(image[i][j]==0){
                 image[i][j]=1;
             }
-            else if(image[i][j]==1){
+            else 
                 image[i][j]=0;
-            }
+            
         }
     }
         
