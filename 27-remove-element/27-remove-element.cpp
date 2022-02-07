@@ -16,14 +16,11 @@ int i=0;
               
                 
             }
-            else if(nums[i]!=val && nums[k]==val){
+            else if((nums[i]!=val && nums[k]==val) || (nums[i]!=val && nums[k]!=val)){
                 i++;
                
             }
-            else if(nums[i]!=val && nums[k]!=val){
-                i++;
-                
-            }
+        
               
            
         }
