@@ -6,8 +6,8 @@ sort(nums.begin(),nums.end());
             
             int m=1;
             
-            for(auto n:nums){
-                    if(n==m)
+            for(int i=0;i<n;i++){
+                    if(nums[i]==m)
                             m++;
             }
             return m;
